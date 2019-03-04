@@ -1,0 +1,68 @@
+#menu {
+
+	position: fixed;
+	width: 100%;
+	height: 200px;
+	top: 0;
+	box-shadow: 5px 5px 10px grey;
+	background: #37ba5a;
+	white-space: nowrap;
+	font-size: 35px;
+	font-family: "Calibri";
+	font-weight: bold;
+	text-align: center;
+
+
+}
+#menu a {
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	color: black;
+  }
+#menu a:hover {
+	background: lightgray;
+	color: black;
+  }
+ul li{
+	display: inline;
+	border-right: 2px solid #ccc;
+
+
+  }
+
+  li a:hover {
+	  background-color: black;
+	  color: white;
+  }
+body {
+	background-color: #C2ECCD;
+	background-attachment: fixed;
+	background-size:100%;
+}
+
+#foot {
+
+	position: fixed;
+	width: 100%;
+	height: 200px;
+	top: 0;
+	box-shadow: 5px 5px 10px grey;
+	background: #37ba5a;
+	white-space: nowrap;
+	font-size: 15px;
+	font-family: "Calibri";
+}
+
+#foot sa {
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	color: black;
+  }
+#foot a:hover {
+	background: lightgray;
+	color: black;
+  }
