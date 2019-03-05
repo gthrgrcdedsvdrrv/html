@@ -6,6 +6,7 @@
 	top: 0;
 	box-shadow: 5px 5px 10px grey;
 	background: #37ba5a;
+	
 	white-space: nowrap;
 	font-size: 35px;
 	font-family: "Calibri";
@@ -66,3 +67,8 @@ body {
 	background: lightgray;
 	color: black;
   }
+
+img:hover {
+	box-shadow: 0 8px 10px 0, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transform: scale(1.1);
+}
