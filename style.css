@@ -43,7 +43,9 @@ body {
 	background-size:100%;
 	font-size: 30px;
 }
-
+html {
+	scroll-behavior: smooth;
+  }
 #foot {
 
 	position: fixed;
